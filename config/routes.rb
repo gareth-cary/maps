@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   root to: 'locations#index'
   resources :locations, only: %i[index show]
   get 'show', to: 'locations#show'
+  get 'map', to: 'locations#map'
 end

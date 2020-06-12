@@ -1,0 +1,55 @@
+.banner-show-page {
+  background-size: cover;
+  background-position: center;
+  padding-top: 90px;
+  padding-bottom: 70px;
+  margin-bottom: 10px;
+  border-bottom: 10px solid lightgrey;
+  margin-top: 10px;
+  h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lora', serif;
+
+  }
+  p {
+    text-align: center;
+    font-family: 'Lora', serif;
+  }
+  a {
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    padding: 5px 20px;
+    font-family: 'Lora', serif;
+    &:hover {
+      text-decoration: none;
+      background-color: white;
+      color: black;
+      transition: 0.7s;
+    }
+  }
+}
+
+.image-one {
+  width: 100%;
+  box-shadow: 0 0 10px 7px lightgrey;
+  margin-bottom: 30px;
+}
+
+.info-show-page {
+  margin-bottom: 30px;
+  padding: 10px;
+  h2 {
+    font-family: 'Lora', serif;
+  }
+  p {
+    font-family: 'Lora', serif;
+  }
+}
+
+.date {
+  font-size: 20px;
+  color: grey;
+}
