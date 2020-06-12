@@ -1,3 +1,26 @@
-<h1>hello world </h1>
 
-<%= image_tag "china-beijing/china-beijing.png" %>
+
+
+
+<div class="index-background-image">
+  <h1 class="index-title">Locations visited in the World</h1>
+  <p class="index-title">Gareth Cary</p>
+</div>
+
+
+<div class="cards-inline">
+   <div class="grid-card">
+   <% @locations.each do |location| %>
+
+      <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= location.image %>)">
+          <div class="name-index-card">
+            <h3><%= "#{location.name}" %></h3>
+          </div>
+          <div class="description">
+            <p><%= "#{location.location}" %></p>
+          </div>
+        </div>
+
+        <% end %>
+    </div>
+</div>
