@@ -16,8 +16,10 @@ require("channels")
 // const images = require.context('../images', true)
 // const imagePath = (name) => images(name, true)
 import "bootstrap";
+import { initMapbox } from '../plugins/init_mapbox';
 import { initMapbox2 } from '../plugins/init_mapbox2';
 
 document.addEventListener('turbolinks:load', () => {
+  initMapbox();
   initMapbox2();
 })
