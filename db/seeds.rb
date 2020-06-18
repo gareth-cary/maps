@@ -27,14 +27,15 @@ puts "seed 1"
 
 Location.create(
   name: 'Germany',
-  description: 'Work trip where I did not work',
+  description: 'Work trip where I did not work, The Play Group needed me in Berlin just in case Eddie who was stick in Italy couldnt get back in time',
   location: 'Berlin',
   image: 'https://images.unsplash.com/photo-1528728329032-2972f65dfb3f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80',
   trip: 'Work trip',
-  imageone: 'italy-holiday/italy-venice-holiday.png',
-  imagetwo: 'italy-holiday/italy-venice-holiday-2.png',
-  imagethree: 'italy-holiday/italy-venice-holiday-3.png',
-  imagefour: 'italy-holiday/italy-venice-holiday-4.png'
+  imageone: 'https://images.unsplash.com/photo-1560969184-10fe8719e047?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80',
+  imagetwo: 'https://images.unsplash.com/photo-1552553302-9211bf7f7053?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80',
+  imagethree: 'https://images.unsplash.com/photo-1509136561942-7d8663edaaa2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80',
+  imagefour: 'https://images.unsplash.com/photo-1546726747-421c6d69c929?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80',
+  date: '2019'
   )
 
 puts "seed 3"
