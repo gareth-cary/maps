@@ -72,13 +72,14 @@ puts "seed 5"
 Location.create(
   name: 'Saudi Arabia',
   description: 'Scarlet Entertainments Theatre Tour. We took two shows to Saudi Aribia, The Jungle Book and A Crcus Show. It was an incredible experience and a once in a life time opertunity. We had the pleasure of performing in front of the Crowned Prince for their International Festival. ',
-  location: 'Saudi Arabia',
+  location: 'Riyadh',
   image: 'https://images.unsplash.com/photo-1551041777-575d3855ca71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80',
   trip: 'Work trip',
   imageone: 'https://images.unsplash.com/photo-1589342881698-1207ac70c9d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80',
   imagetwo: 'https://images.unsplash.com/photo-1575101261474-5cb5653bb416?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80',
   imagethree: 'https://images.unsplash.com/photo-1529178670343-41fefeab98e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80',
-  imagefour: 'https://images.unsplash.com/photo-1551031749-9257c3aee0df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80'
+  imagefour: 'https://images.unsplash.com/photo-1551031749-9257c3aee0df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80',
+  date: '2017'
   )
 
 puts "seed 6"
@@ -92,7 +93,8 @@ Location.create(
   imageone: 'italy-holiday/italy-venice-holiday.png',
   imagetwo: 'italy-holiday/italy-venice-holiday-2.png',
   imagethree: 'italy-holiday/italy-venice-holiday-3.png',
-  imagefour: 'italy-holiday/italy-venice-holiday-4.png'
+  imagefour: 'italy-holiday/italy-venice-holiday-4.png',
+  date: '2019'
 
   )
 
@@ -105,9 +107,10 @@ Location.create(
   image: 'https://images.unsplash.com/photo-1550768277-24e5e4b97a7a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80',
   trip: 'Work trip',
   imageone: 'italy-work-naples/italy-work-naples.png',
-  imagetwo: 'italy-work-naples/italy-work-naples2.png',
-  imagethree: 'italy-work-naples/italy-work-naples3.png',
-  imagefour: 'italy-work-naples/itay-work-naples4.png'
+  imagetwo: 'italy-work-naples/italy-work-naple2.png',
+  imagethree: 'italy-work-naples/italy-work-naple3.png',
+  imagefour: 'italy-work-naples/itay-work-naples4.png',
+  date: '2017 & 2018 & 2019'
   )
 
 puts "seed 8"
@@ -136,7 +139,8 @@ Location.create(
   imageone: 'gibraltar-holiday/gibraltar-holiday.png',
   imagetwo: 'gibraltar-holiday/gibraltar-holiday2.png',
   imagethree: 'gibraltar-holiday/gibraltar-holiday3.png',
-  imagefour: 'gibraltar-holiday/gibraltar-holiday4.png'
+  imagefour: 'gibraltar-holiday/gibraltar-holiday4.png',
+  date: 'January 2019'
   )
 
 puts "seed 10"
