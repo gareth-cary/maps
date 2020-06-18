@@ -86,14 +86,14 @@ puts "seed 6"
 
 Location.create(
   name: 'Italy',
-  description: 'Holiday with the Girlfriend',
+  description: 'Holiday with the Girlfriend, Great Holiday but it was a massive tourist trap took about 3 hours to get into the colosseum. The food however was brilliant and it was another tick of the bucket list.',
   location: 'Rome',
   image: 'https://images.unsplash.com/photo-1525874684015-58379d421a52?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80',
   trip: 'Holiday',
-  imageone: 'italy-holiday/italy-venice-holiday.png',
-  imagetwo: 'italy-holiday/italy-venice-holiday-2.png',
-  imagethree: 'italy-holiday/italy-venice-holiday-3.png',
-  imagefour: 'italy-holiday/italy-venice-holiday-4.png',
+  imageone: 'https://images.unsplash.com/photo-1552832230-c0197dd311b5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=986&q=80',
+  imagetwo: 'https://images.unsplash.com/photo-1569416078500-3857b00616f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=676&q=80',
+  imagethree: 'https://images.unsplash.com/photo-1561716514-daea32af173e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
+  imagefour: 'https://images.unsplash.com/photo-1512767811219-ed2f11ce5d0d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80',
   date: '2019'
 
   )
