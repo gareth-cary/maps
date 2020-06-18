@@ -71,14 +71,14 @@ puts "seed 5"
 
 Location.create(
   name: 'Saudi Arabia',
-  description: 'Scarlet Entertainments Theatre Tour',
+  description: 'Scarlet Entertainments Theatre Tour. We took two shows to Saudi Aribia, The Jungle Book and A Crcus Show. It was an incredible experience and a once in a life time opertunity. We had the pleasure of performing in front of the Crowned Prince for their International Festival. ',
   location: 'Saudi Arabia',
   image: 'https://images.unsplash.com/photo-1551041777-575d3855ca71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80',
   trip: 'Work trip',
-  imageone: 'italy-holiday/italy-venice-holiday.png',
-  imagetwo: 'italy-holiday/italy-venice-holiday-2.png',
-  imagethree: 'italy-holiday/italy-venice-holiday-3.png',
-  imagefour: 'italy-holiday/italy-venice-holiday-4.png'
+  imageone: 'https://images.unsplash.com/photo-1589342881698-1207ac70c9d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80',
+  imagetwo: 'https://images.unsplash.com/photo-1575101261474-5cb5653bb416?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80',
+  imagethree: 'https://images.unsplash.com/photo-1529178670343-41fefeab98e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80',
+  imagefour: 'https://images.unsplash.com/photo-1551031749-9257c3aee0df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80'
   )
 
 puts "seed 6"
@@ -100,14 +100,14 @@ puts "seed 7"
 
 Location.create(
   name: 'Italy',
-  description: 'Theatre Tour with The Play Group',
+  description: 'Theatre Tour with The Play Group Theatre Company. I have worked for this company for three years now. They are a Great company who are based in Naples. I have toured three shows with them Dracula, Treasure Island and Hamlet. All of their shows are comedies and they have been very well recieved by schools that we do our shows for.',
   location: 'Naples',
   image: 'https://images.unsplash.com/photo-1550768277-24e5e4b97a7a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80',
   trip: 'Work trip',
-  imageone: 'italy-holiday/italy-venice-holiday.png',
-  imagetwo: 'italy-holiday/italy-venice-holiday-2.png',
-  imagethree: 'italy-holiday/italy-venice-holiday-3.png',
-  imagefour: 'italy-holiday/italy-venice-holiday-4.png'
+  imageone: 'italy-work-naples/italy-work-naples.png',
+  imagetwo: 'italy-work-naples/italy-work-naples2.png',
+  imagethree: 'italy-work-naples/italy-work-naples3.png',
+  imagefour: 'italy-work-naples/itay-work-naples4.png'
   )
 
 puts "seed 8"
