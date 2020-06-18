@@ -129,14 +129,14 @@ puts "seed 9"
 
 Location.create(
   name: 'Gibraltar',
-  description: 'Family holiday',
+  description: 'This was a Family holiday to Gibraltar, I was a lot of fun. Monkeys are amazing and they are my zodiac animal so its only natural that this was a great trip. ',
   location: 'Rock of Gibraltar',
   image: 'https://images.unsplash.com/photo-1540573133985-87b6da6d54a9?ixlib=rb-1.2.1&auto=format&fit=crop&w=1055&q=80',
   trip: 'Holiday',
-  imageone: 'italy-holiday/italy-venice-holiday.png',
-  imagetwo: 'italy-holiday/italy-venice-holiday-2.png',
-  imagethree: 'italy-holiday/italy-venice-holiday-3.png',
-  imagefour: 'italy-holiday/italy-venice-holiday-4.png'
+  imageone: 'gibraltar-holiday/gibraltar-holiday.png',
+  imagetwo: 'gibraltar-holiday/gibraltar-holiday2.png',
+  imagethree: 'gibraltar-holiday/gibraltar-holiday3.png',
+  imagefour: 'gibraltar-holiday/gibraltar-holiday4.png'
   )
 
 puts "seed 10"
